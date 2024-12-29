@@ -2,7 +2,8 @@
 
 namespace Data;
 
-class Shape {
+class Shape
+{
 
     public function getCorner()
     {
@@ -10,7 +11,8 @@ class Shape {
     }
 }
 
-class Rectangle extends Shape {
+class Rectangle extends Shape
+{
 
     public function getCorner()
     {

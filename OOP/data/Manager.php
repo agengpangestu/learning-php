@@ -5,7 +5,8 @@ class Manager
     var string $name;
     var string $title;
 
-    public function __construct(string $name = "", string $title = "Manager") {
+    public function __construct(string $name = "", string $title = "Manager")
+    {
         $this->name = $name;
         $this->title = $title;
     }
@@ -31,7 +32,7 @@ class VicePresident extends Manager
     {
         echo "Hi $name, it's Vice President $this->name" . PHP_EOL;
     }
-    
+
     // accessing parent function using 'parent keyword'
     function getParentFunc(string $name)
     {
